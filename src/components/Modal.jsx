@@ -11,7 +11,7 @@ export default function Modal() {
         <>
             <div className="flex items-center justify-center">
                 <button
-                  className= 'text-black px-8 py-4 rounded-2xl my-5 bg-lime-500 font-bold'
+                  className= 'text-black px-16 py-4 rounded-2xl my-5 bg-lime-500 font-bold'
                     type="button"
                     onClick={() => setShowModal(true)}
                 >
@@ -35,22 +35,22 @@ export default function Modal() {
 </svg>
 
                   </button>
-                            <div className="mt-3 sm:flex">
+                            <div className="mt-3 sm:flex float-clear">
                       
-                                <div className="mt-2 text-center sm:ml-4 sm:text-left">
+                                <div className="mt-2 text-center sm:ml-4">
                                    
                                     <p className="mt-2 text-2xl leading-relaxed">
                                     Send resumes to careers@itlabsinc.com  
                                     </p>
                                     <div className="items-center gap-2 mt-3 sm:flex">
-                                        <button
+                                        {/* <button
                                             className="w-full mt-2 p-2.5 flex-1 text-white bg-red-600 rounded-md outline-none ring-offset-2 ring-red-600 focus:ring-2"
                                             onClick={closeModal}
                                         >
                                             Cancel
-                                        </button>
+                                        </button> */}
                                         <button
-                                            className="w-full mt-2 p-2.5 flex-1 text-gray-800 rounded-md outline-none border ring-offset-2 ring-indigo-600 focus:ring-2"
+                                            className="w-full mt-2 p-2.5 flex-1 text-black px-16 py-4 rounded-2xl my-5 bg-lime-500 font-bold"
                                             onClick={closeModal}
                                         >
                                             Ok
